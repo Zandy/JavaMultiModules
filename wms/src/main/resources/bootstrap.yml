@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: tetx-wms
+  profiles:
+    active: ${STAGING:dev}

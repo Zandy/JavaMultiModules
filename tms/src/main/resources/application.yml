@@ -1,0 +1,11 @@
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8
+    username: test
+    password: test
+
+mybatis:
+  typeAliasesPackage: com.tetx.tms.domain
+  mapperLocations: classpath:mapper/*.xml

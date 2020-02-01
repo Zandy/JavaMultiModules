@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: tetx-tms
+  profiles:
+    active: ${STAGING:dev}
